@@ -1,0 +1,53 @@
+@use '../sass/abstracts/mixins.scss';
+
+.circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    
+    
+
+    &.first {
+        background-color: #9BC1BC;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    &.second {
+        background-color: #E2B1B1;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    &.third {
+        background-color: #F4F1BB;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    @include mixins.breakpoint(sm) {
+        width: 125px;
+        height: 125px;
+        font-size: 1.5rem;
+    }
+
+    @include mixins.breakpoint(lg) {
+        width: 150px;
+        height: 150px;
+    }
+}

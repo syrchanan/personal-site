@@ -1,0 +1,17 @@
+@use '../sass/abstracts/vars.scss';
+
+.footer {
+    //background-color: vars.$color_grey;
+    color: black;
+    padding: 2rem 0;
+}
+
+.bar {
+    border-top: 2px solid #b5b5b5;
+    margin-bottom: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

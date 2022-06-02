@@ -1,0 +1,51 @@
+@use '../sass/abstracts/mixins.scss';
+
+.wrappertall {
+    display: inline-block; 
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    margin-bottom: 3rem;
+
+    @include mixins.breakpoint(sm) {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.imgtall {
+    height: auto;
+    width: 100%;
+    margin-top: -90px;
+
+    @include mixins.breakpoint(sm) {
+        margin-top: -160px;
+    }
+}
+
+.wrapperwide {
+    display: inline-block; 
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    margin-bottom: 3rem;
+
+    @include mixins.breakpoint(sm) {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.imgwide {
+    height: 100%;
+    width: auto;
+    margin-top: 0px;
+
+    @include mixins.breakpoint(sm) {
+        margin-top: 0px;
+    }
+}
