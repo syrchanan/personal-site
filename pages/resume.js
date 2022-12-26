@@ -26,7 +26,7 @@ const ResumePage = () => {
                         <Row>
                             <Col>
                             <Paragraph>
-                                Each day, I create ad hoc and daily research reports to share across the team and company analyzing demo deliveries, competitive standings, etc. Also, I study and process historical data to create estimates for future programs and events.
+                            On the forecasting team, my main responsibilities lie in estimating future audiences of various programs across both CNN and competitive networks – anywhere from days to years ahead of time. To this end, I blend historical data, primary research, and develop various machine learning models in R to both create and evaluate estimates. Additionally, I built and maintained custom shiny dashboards to quickly convey important information to key stakeholders.
                             </Paragraph>
                             </Col>
                         </Row>
@@ -45,7 +45,7 @@ const ResumePage = () => {
                         <Row>
                             <Col>
                             <Paragraph>
-                                Responsible for creating and sharing daily delivery and reach reports. Used the Nielsen suite of tools to access and process viewership data. As a summer project, designed and built a custom Shiny app to track network demo deliveries over time.
+                                Day to day, I was responsible for creating and sharing daily audience delivery and reach reports. These reports were created out of Nielsen data, accessed through the Nielsen suite of tools and products. As a summer-long project, I also designed and built a custom Shiny app to track different network deliveries per market demographic over time.
                             </Paragraph>
                             </Col>
                         </Row>
