@@ -95,3 +95,27 @@ export async function getAutoTVProjectReadme() {
         markdown
     )
 }
+
+async function fetchTernReadme() {
+    const octokit = new Octokit({
+        auth: process.env.GITHUB_AUTH_TOKEN
+    });
+
+    const markdown = await octokit.request("GET /repos/{owner}/{repo}/readme/{dir}", {
+        owner: "syrchanan",
+        repo: "portfolio",
+        dir: "r_projects/event_cvg_tern_plot"
+    });
+
+    return markdown.data.content;
+}
+    
+    
+
+export async function getTernProjectReadme() {
+    const markdown = await fetchTernReadme()
+
+    return (
+        markdown
+    )
+}

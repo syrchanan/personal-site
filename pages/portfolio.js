@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import Row from "../components/Row"
 import Col from '../components/Col'
 import Heading from '../components/Heading'
-import { getMiningProjectReadme, getF1ProjectReadme, getAprioriProjectReadme, getAutoTVProjectReadme } from "./api/github"
+import { getMiningProjectReadme, getF1ProjectReadme, getAprioriProjectReadme, getAutoTVProjectReadme, getTernProjectReadme } from "./api/github"
 import Image from 'next/image'
 import Link from 'next/link'
 import Section from '../components/Section'
@@ -13,23 +13,26 @@ export async function getStaticProps() {
     const readmeMining = await getMiningProjectReadme()
     const readmeApriori = await getAprioriProjectReadme()
     const readmeAutoTV = await getAutoTVProjectReadme()
+    const readmeTern = await getTernProjectReadme()
 
     const contentF1 = Buffer.from(readmeF1, 'base64').toString('ascii')
     const contentMining = Buffer.from(readmeMining, 'base64').toString('ascii')
     const contentApriori = Buffer.from(readmeApriori, 'base64').toString('ascii')
     const contentAutoTV = Buffer.from(readmeAutoTV, 'base64').toString('ascii')
+    const contentTern = Buffer.from(readmeTern, 'base64').toString('ascii')
 
     return {
         props: {
             contentF1,
             contentMining,
             contentApriori,
-            contentAutoTV
+            contentAutoTV,
+            contentTern
         }
     }
 }
 
-const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV}) => {
+const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV, contentTern}) => {
 
     return(
         <Layout>
@@ -135,6 +138,30 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV}
                         </Link>
                         <Section>
                             {contentAutoTV}
+                        </Section>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm="4" justifyContent="center" alignItems="center">
+                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/event_cvg_tern_plot">
+                            <a>
+                                <Image
+                                    src="/GA_runoff_plot.svg"
+                                    alt="GA Runoff Analysis"
+                                    width="200"
+                                    height="200"
+                                />
+                            </a>
+                        </Link>
+                    </Col>
+                    <Col sm="8" justifyContent="center">
+                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/event_cvg_tern_plot">
+                            <a>
+                                <Heading level="2" marginTop="2">Cable News Closed Caption Analysis</Heading>
+                            </a>
+                        </Link>
+                        <Section>
+                            {contentTern}
                         </Section>
                     </Col>
                 </Row>
