@@ -20,7 +20,7 @@ const Header = () => {
             <Container>
                 <Row justifyContent="space-between" alignItems="center">
                     <Col xs="8" sm="4">
-                        <Link href="/">
+                        <Link legacyBehavior href="/">
                             <a>
                                 <Logo/>
                             </a>

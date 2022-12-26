@@ -47,19 +47,19 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
                 </Row>
                 <Row>
                     <Col sm="4" justifyContent="center" alignItems="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/data_viz_sem_project">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/r_projects/data_viz_sem_project">
                             <a>
                                 <Image
                                     src="/tidyverse-logo.png"
                                     alt="tidyverse"
                                     width="120"
-                                    height="138.5"
+                                    height="139"
                                 />
                             </a>
                         </Link>
                     </Col>
                     <Col sm="8" justifyContent="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/data_viz_sem_project">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/r_projects/data_viz_sem_project">
                             <a>
                                 <Heading level="2" marginTop="2">Formula 1 Analysis</Heading>
                             </a>
@@ -71,7 +71,7 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
                 </Row>
                 <Row>
                     <Col sm="4" justifyContent="center" alignItems="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/data_mining_sem_project">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/r_projects/data_mining_sem_project">
                             <a>
                                 <Image
                                     src="/mining.png"
@@ -83,7 +83,7 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
                         </Link>
                     </Col>
                     <Col sm="8" justifyContent="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/data_mining_sem_project">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/r_projects/data_mining_sem_project">
                             <a>
                                 <Heading level="2" marginTop="2">Predictor-based Data Mining</Heading>
                             </a>
@@ -95,7 +95,7 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
                 </Row>
                 <Row>
                     <Col sm="4" justifyContent="center" alignItems="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/python_projects/data_analysis_sem_project">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/python_projects/data_analysis_sem_project">
                             <a>
                                 <Image
                                     src="/nyserda-logo.png"
@@ -107,7 +107,7 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
                         </Link>
                     </Col>
                     <Col sm="8" justifyContent="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/python_projects/data_analysis_sem_project">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/python_projects/data_analysis_sem_project">
                             <a>
                                 <Heading level="2" marginTop="2">Association Rules Mining</Heading>
                             </a>
@@ -119,19 +119,19 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
                 </Row>
                 <Row>
                     <Col sm="4" justifyContent="center" alignItems="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/automated_television_ratings">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/r_projects/automated_television_ratings">
                             <a>
                                 <Image
                                     src="/nielsen-logo.jpg"
                                     alt="The Nielsen Company"
-                                    width="203.75"
+                                    width="204"
                                     height="136"
                                 />
                             </a>
                         </Link>
                     </Col>
                     <Col sm="8" justifyContent="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/automated_television_ratings">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/r_projects/automated_television_ratings">
                             <a>
                                 <Heading level="2" marginTop="2">Automated Web Scraping</Heading>
                             </a>
@@ -143,7 +143,7 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
                 </Row>
                 <Row>
                     <Col sm="4" justifyContent="center" alignItems="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/event_cvg_tern_plot">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/r_projects/event_cvg_tern_plot">
                             <a>
                                 <Image
                                     src="/GA_runoff_plot.svg"
@@ -155,7 +155,7 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
                         </Link>
                     </Col>
                     <Col sm="8" justifyContent="center">
-                        <Link href="https://github.com/syrchanan/portfolio/tree/main/r_projects/event_cvg_tern_plot">
+                        <Link legacyBehavior href="https://github.com/syrchanan/portfolio/tree/main/r_projects/event_cvg_tern_plot">
                             <a>
                                 <Heading level="2" marginTop="2">Cable News Closed Caption Analysis</Heading>
                             </a>

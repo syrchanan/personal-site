@@ -31,7 +31,7 @@ const ContactPage = () => {
                                     Email
                                 </Heading>
                                 <Paragraph marginBottom="4">
-                                    <Link href="mailto:connorhanan4@gmail.com">
+                                    <Link legacyBehavior href="mailto:connorhanan4@gmail.com">
                                         <a>
                                             connorhanan4@gmail.com
                                         </a>

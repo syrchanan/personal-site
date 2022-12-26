@@ -36,7 +36,7 @@ const Nav = ({mobile, flexDirection}) => {
                 {navLinks.map((navLink, index) => {
                     return(
                         <li key={index} className={styles.listItem}>
-                            <Link href={`/${navLink.slug}`}>
+                            <Link legacyBehavior href={`/${navLink.slug}`}>
                                 <a className={styles.link}>
                                     {navLink.label}
                                 </a>

@@ -14,7 +14,7 @@ const CircleButton = ({children, type}) => {
     })
 
     return(
-            <Link href={`/${children}`} >
+            <Link legacyBehavior href={`/${children}`} >
                 <a className={buttonClasses}>
                     {children}
                 </a>

@@ -26,7 +26,7 @@ const Footer = () => {
                             Email
                         </Heading>
                         <Paragraph>
-                            <Link href="mailto:connorhanan4@gmail.com">
+                            <Link legacyBehavior href="mailto:connorhanan4@gmail.com">
                                 <a className={styles.link}>
                                     connorhanan4@gmail.com
                                 </a>
@@ -41,17 +41,17 @@ const Footer = () => {
                         </Row>
                         <Row>
                             <Col flexDirection='row' justifyContent='space-between' alignItems='center' textAlign='center'>
-                                <Link href="https://www.linkedin.com/in/connorhanan">
+                                <Link legacyBehavior href="https://www.linkedin.com/in/connorhanan">
                                     <a>
                                         <Image
                                             src="/li-bug.png"
                                             alt="LinkedIn Logo"
-                                            width="39.6875"
-                                            height="33.75"
+                                            width="40"
+                                            height="34"
                                         />
                                     </a>
                                 </Link>
-                                <Link href="https://github.com/syrchanan">
+                                <Link legacyBehavior href="https://github.com/syrchanan">
                                     <a>
                                         <Image 
                                             src="/octocat-bug.png"
@@ -61,11 +61,21 @@ const Footer = () => {
                                         />
                                     </a>
                                 </Link>
-                                <Link href="https://twitter.com/ConnorHanan">
+                                <Link legacyBehavior href="https://twitter.com/ConnorHanan">
                                     <a>
                                         <Image 
                                             src="/twitter-bug.png"
                                             alt="Twitter"
+                                            width="32"
+                                            height="32"
+                                        />
+                                    </a>
+                                </Link>
+                                <Link legacyBehavior href="https://syrchanan.quarto.pub/blog.html">
+                                    <a>
+                                        <Image 
+                                            src="/blog.png"
+                                            alt="Monographs"
                                             width="32"
                                             height="32"
                                         />

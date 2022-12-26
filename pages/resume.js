@@ -17,7 +17,7 @@ const ResumePage = () => {
                     <Col xs="12" sm="12" md="5">
                         <Row>
                             <Col>
-                            <Heading level="3" marginBottom="1">Research Analyst (Temporary), CNN</Heading>
+                            <Heading level="3" marginBottom="1">Research Analyst, CNN</Heading>
                             <Heading level="4" marginBottom="3">April 2022 - Present</Heading>
                             </Col>
                         </Row>
