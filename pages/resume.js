@@ -61,7 +61,7 @@ const ResumePage = () => {
                         <Row>
                             <Col>
                             <Heading level="3" marginBottom="1">Associate Producer, CitrusTV</Heading>
-                            <Heading level="4" marginBottom="3">August 2019 - May 2022</Heading>
+                            <Heading level="4" marginBottom="3">August 2019 - May 2021</Heading>
                             </Col>
                         </Row>
                     </Col>
@@ -103,24 +103,24 @@ const ResumePage = () => {
                     <Col xs="12" sm="6">
                         <Row>
                             <Col>
-                            <Heading level="3" marginBottom="1">Data Analytics</Heading>
+                            <Heading level="3" marginBottom="1">Data Science</Heading>
                             <Paragraph>
                                 Certified Tableau Desktop Specialist
                             </Paragraph>
                             <Paragraph>
-                                R: Tidyverse, R Markdown, Shiny
+                                R: Tidyverse, Tidymodels, Quarto, Shiny
                             </Paragraph>
                             <Paragraph>
                                 Python: Pandas, Numpy
                             </Paragraph>
                             <Paragraph>
-                                Machine Learning: Decision Tree, Random Forest, Support Vector Machine, Naive Bayes, Neural Nets, Gradient Boosting, Association Rules and k-Nearest Neighbor
+                                Machine Learning: Decision Tree, Random Forest, Support Vector Machine, Naive Bayes, Gradient Boosting, Association Rules, k-Nearest Neighbor
                             </Paragraph>
                             <Paragraph>
-                                Web Development: HTML, CSS, Wordpress, Sass, NextJS
+                                NLP: Topic Modelling, Sentiment Analysis, Normalization and Fuzzy Matching, Compound Term Analysis
                             </Paragraph>
                             <Paragraph>
-                                VBA for Office Products
+                                Big Data: Apache Arrow, SQL
                             </Paragraph>
                             </Col>
                         </Row>
@@ -130,13 +130,16 @@ const ResumePage = () => {
                             <Col>
                             <Heading level="3" marginBottom="1">Other</Heading>
                             <Paragraph>
+                                Web Development: HTML, CSS, Sass, NextJS
+                            </Paragraph>
+                            <Paragraph>
                                 Nielsen: NNTV, NPower, NCL
                             </Paragraph>
                             <Paragraph>
-                                Microsoft: Word, Excel, OneNote, PowerPoint, Teams and Vizio
+                                Microsoft: Word, Excel (VBA), OneNote
                             </Paragraph>
                             <Paragraph>
-                                RStudio, VSCode
+                                Posit (RStudio)/VSCode/Jupyter Lab
                             </Paragraph>
                             <Paragraph>
                                 Orange Data Mining
@@ -154,7 +157,7 @@ const ResumePage = () => {
                         <Row>
                             <Col flexDirection="column">
                             <Heading level="3" marginBottom="1">Syracuse University</Heading>
-                            <Heading level="4" marginBottom="3">Summa Cum Laude, 2018 - 2022</Heading>
+                            <Heading level="4" marginBottom="3">Summa Cum Laude, Class of 2022</Heading>
                             </Col>
                         </Row>
                     </Col>
