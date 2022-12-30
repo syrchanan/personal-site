@@ -7,6 +7,7 @@ import { getMiningProjectReadme, getF1ProjectReadme, getAprioriProjectReadme, ge
 import Image from 'next/image'
 import Link from 'next/link'
 import Section from '../components/Section'
+import Head from 'next/head'
 
 export async function getStaticProps() {
     const readmeF1 = await getF1ProjectReadme()
@@ -36,6 +37,10 @@ const PortfolioPage = ({contentF1, contentMining, contentApriori, contentAutoTV,
 
     return(
         <Layout>
+            <Head>
+                <title>Portfolio</title>
+                <link rel="icon" href="/icon.png"/>
+            </Head>
             <Container>
                 <Row>
                     <Col sm="1"/>

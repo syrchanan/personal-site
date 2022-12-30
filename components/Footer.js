@@ -71,7 +71,7 @@ const Footer = () => {
                                         />
                                     </a>
                                 </Link>
-                                <Link legacyBehavior href="https://syrchanan.quarto.pub/blog.html">
+                                <Link legacyBehavior href="https://syrchanan.quarto.pub">
                                     <a>
                                         <Image 
                                             src="/blog.png"

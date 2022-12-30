@@ -6,10 +6,15 @@ import Paragraph from "../components/Paragraph"
 import Row from "../components/Row"
 import TitleImage from "../components/TitleImage"
 import Link from "next/link"
+import Head from 'next/head'
 
 const ContactPage = () => {
     return(
         <Layout>
+            <Head>
+                <title>Contact</title>
+                <link rel="icon" href="/icon.png"/>
+            </Head>
             <Container>
                 <Row>
                     <Col xs="12" sm="12" md="6" justifyContent="center" alignItems="center" textAlign="center">

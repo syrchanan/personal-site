@@ -4,10 +4,15 @@ import Container from "../components/Container"
 import Layout from "../components/Layout"
 import Heading from "../components/Heading"
 import Paragraph from "../components/Paragraph"
+import Head from "next/head"
 
 const ResumePage = () => {
     return(
         <Layout>
+            <Head>
+                <title>Resume</title>
+                <link rel="icon" href="/icon.png"/>
+            </Head>
             <Container>
                 {/* Experience */}
                 <Row justifyContent="center">
