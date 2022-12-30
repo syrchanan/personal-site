@@ -31,7 +31,7 @@ export default function Home() {
                 <Col xs="10" sm="10">
                   <Heading level="1" marginBottom="1">Connor Hanan</Heading>
                   <Paragraph intro>
-                    Passionate about the growing intersection of data analytics and television, Connor is interested in applying data-driven visualizations and models to explore the future of television.
+                    Passionate about the growing intersection of data analytics and television, Connor is interested in applying data-driven visualizations and models to explore the future of news media.
                   </Paragraph>
                 </Col>
               </Row>
